@@ -1,0 +1,6 @@
+ID,Nombre,Marca,Categoria,Precio,Stock,Garantia
+P001,iPhone 15 Pro,Apple,Smartphone,999.99,50,12
+P002,Samsung Galaxy S24,Samsung,Smartphone,849.99,45,12
+P003,MacBook Pro M3,Apple,Laptop,1999.99,30,24
+P004,Dell XPS 15,Dell,Laptop,1499.99,25,24
+P005,prochocha,chocha,vaginoid,10000.0,89,199
