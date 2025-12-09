@@ -149,6 +149,10 @@ main {
   list-style: none;
   max-width: 600px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  grid-row: inherit;
 }
 
 .projects-list li {
@@ -157,6 +161,9 @@ main {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   transition: all 0.3s ease;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
 }
 
 .projects-list li:hover {
