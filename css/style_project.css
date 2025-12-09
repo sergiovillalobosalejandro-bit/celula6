@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+body > ul{
+    list-style: none;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    background-color: rgb(4, 217, 255);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+ul li:hover{
+    background-color: rgb(111, 111, 211);
+    transform: translate(10px,10px);
+}
