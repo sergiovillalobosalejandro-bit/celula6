@@ -1,0 +1,81 @@
+/* Estilos Base (No modificar) */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+}
+
+/* --- TU CÓDIGO EMPIEZA AQUÍ --- */
+
+.navbar {
+    /* Pista: Usa Flexbox aquí */
+    display:flex;
+    background-color: #333;
+    /* Color para móvil */
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Pista: ¿Cómo alinear los items? */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-links li {
+    margin: 0.5rem 0;
+}
+
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* --- MEDIA QUERY PARA DESKTOP --- */
+@media (min-width: 768px) {
+    .content {
+    padding: 2rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    list-style: none;
+}
+
+    .navbar {
+        background-color: hsl(0, 0%, 100%);
+        color: #333;
+        /* Pista: Cambia la dirección o justificación */
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    .nav-links {
+        /* Pista: Flexbox para ponerlos en fila */
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-end;
+        justify-content: flex-end;
+        list-style: none;
+    }
+
+    .nav-links li {
+        margin: 0 1rem;
+        list-style: none;
+    }
+}
